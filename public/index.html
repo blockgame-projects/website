@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Primary Meta Tags -->
+        <title>BlockGame</title>
+        <meta name="title" content="BlockGame">
+        <meta name="description" content="A BlockGame written in Java">
+
+        <!-- Favicon and title -->
+        <link rel="icon" href="/favicon.ico">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <style>
+            @font-face {
+                font-family: Minecraftia;
+                src: url("Minecraftia-Regular.ttf");
+                ascent-override: 225%;
+            }
+
+            html, body {
+                font-family: Minecraftia !important;
+            }
+
+            body {
+                background-image: url("/background.png");
+                background-size: 64px 64px;
+                background-position: 0;
+            }
+
+            a {
+                text-decoration: none;;
+            }
+
+            .box {
+                width: 100%;
+                padding: 2rem;
+                font-size: 2rem;;
+                background: #000;
+                color: #fff;
+                border: 4px solid #fff;
+            }
+
+            .button {
+                background: #8E8991;
+                border: 4px solid #241f27;
+                color: #fff;
+                text-decoration: none;
+                font-size: 2rem;
+                padding: 0rem 8rem;
+                margin: 10px;
+            }
+
+            .button:hover {
+                background: #46b80e;
+            }
+        </style>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <img src="/logo.png" class="img-fluid d-block mx-auto" alt="BlockGame Logo"/>
+                    <div class="text-center">
+                        <a href="https://github.com/james090500/blockgame-client">Help the development on GitHub!</a>
+                    </div>
+                    <div class="box mt-4">
+                        BlockGame is currently under development.
+                        <br><br>
+                        It's a sandbox game written in Java using LWJGL and OpenGL.
+                        <br><br>
+                        You can download the pre-alpha launcher below.
+                    </div>
+                    <hr>
+                    <div class="text-center w-100">
+                        <div class="d-inline-grid">
+                            <a href="#" class="button">
+                                Windows
+                            </a>
+                            <a href="#" class="button">
+                                Mac
+                            </a>
+                            <a href="#" class="button">
+                                Linux
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

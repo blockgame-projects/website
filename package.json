@@ -1,0 +1,17 @@
+{
+    "name": "blockgame-website",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "wrangler dev",
+        "lint": "eslint --fix src/**"
+    },
+    "dependencies": {
+        "@tsndr/cloudflare-worker-router": "^3.3.0"
+    },
+    "devDependencies": {
+        "eslint": "^9.35.0",
+        "sass": "^1.92.1",
+        "wrangler": "^4.34.0"
+    }
+}
