@@ -2,6 +2,12 @@
     "name": "blockgame-website",
     "version": "0.0.1",
     "type": "module",
+    "license": "Apache-2.0",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/blockgame-projects/website.git"
+    },
+    "homepage": "https://blockgame.james090500.com/",
     "scripts": {
         "dev": "wrangler dev",
         "lint": "eslint --fix src/**"
@@ -12,6 +18,6 @@
     "devDependencies": {
         "eslint": "^9.35.0",
         "sass": "^1.92.1",
-        "wrangler": "^4.34.0"
+        "wrangler": "^4.37.0"
     }
 }
